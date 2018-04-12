@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!-- saved from url=(0074)http://winhost6.ischool.uw.edu/gclass/files/activities/build_w3/forms.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>UW MAJOR APPLICATIONS</title>
+</head>
+<body waid71fa0d88-5390-4b5b-a2f4-e45fa93d85e2="SA password protect entry checker" class="vsc-initialized">
+
+<h2>University of Washington CAPACITY CONSTRAINED MAJOR Application Form!</h2>
+
+<form action="http://gclass.alexburner.com/formtest.php" method="post">
+
+	<fieldset>
+		<legend>Application Information</legend>
+		<div class="field">
+			<label>First Name</label> 
+			<input type="text" name="firstname">
+		</div>
+		<div class="field">
+			<label>Last Name</label> 
+			<input type="text" name="lastname">
+		</div>
+		<div class="field">
+			<label>Passphrase:</label> 
+			<input type="password" name="passphrase">
+		</div>
+		<div class="field">
+			<label>Are you a student at the University of Washington?</label> 
+			<input type="radio" name="student" value="yes">Yes
+			<input type="radio" name="student" value="no">No
+		</div>
+		<div class="field">
+			<label>What is your Class Standing at UW</label> 
+			<select name="standing">
+				<option value="" selected="true"></option>
+				<option value="AL">Freshman</option>
+				<option value="AL">Sophomore</option>
+				<option value="AL">Junior</option>
+				<option value="AL">Senior</option>
+			</select>
+		</div>
+		<div class="field">
+			<label>What major are you applying to? (select all that apply)</label>
+			<ul>
+				<li><input type="checkbox" name="major_cs" value="computerscience">Computer Science</li>
+				<li><input type="checkbox" name="major_if" value="informatics">Informatics</li>
+				<li><input type="checkbox" name="major_ee" value="electricalengineer">Electrical Engineering</li>
+				<li><input type="checkbox" name="major_ce" value="civilengineer">Civil Engineering</li>
+			</ul>
+		</div>
+		
+	</fieldset>
+
+	<fieldset>
+		<legend>Coursework</legend>
+		
+		<div class="field">
+			<label>What is your CUMULATIVE GPA?</label> 
+			<input type="text" name="cum_gpa">
+		</div>
+		<div class="field">
+			<label>Pre-requisite Course GPA</label>
+			<table>
+				<tbody><tr>
+					<th></th>
+					<th>Math</th>
+					<th>Science</th>
+					<th>English</th>
+					<th>VLPA</th>
+					<th>PRE-REQ</th>
+				</tr>
+				<tr>
+					<th>GPA</th>
+					<td><input type="text" size="5" name="math_gpa"></td>
+					<td><input type="text" size="5" name="science_gpa"></td>
+					<td><input type="text" size="5" name="english_gpa"></td>
+					<td><input type="text" size="5" name="vlpa_gpa"></td>
+					<td><input type="text" size="5" name="prereq_gpa"></td>
+				</tr>
+			</tbody></table>
+		</div>
+	</fieldset>
+
+
+	
+	<fieldset>
+		<legend>Personal Statement</legend>
+		<div class="field">
+			<label>Why are you passionate about studying in this field?</label><br>
+			<textarea name="deserve" rows="6" cols="60"></textarea>
+		</div>
+		<div class="field">
+			<label>How are you a diverse individual?</label><br>
+			<textarea name="project" rows="6" cols="60"></textarea>
+		</div>
+	</fieldset>
+
+	<input type="submit" value="Submit form">
+
+</form>
+
+</body></html>
