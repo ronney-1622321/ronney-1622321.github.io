@@ -1,0 +1,56 @@
+body {
+    background-image: url('dark_wood.png');
+}
+ 
+p {
+
+}
+
+h3{
+
+
+}
+
+li{
+
+
+}
+
+#Header{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: solid 8px black;
+    text-align: center;
+}
+
+#Header h1{
+
+}
+
+#LeftNav{
+    padding-bottom: 8px;
+    float: left;
+}
+
+#leftNav img{
+
+}
+
+#leftNav h3 {
+
+}
+
+#Content{
+    padding: 15px;
+}
+
+#footer {
+
+}
+
+ul{
+    list-style-type: none;
+    padding-Left:0px;
+}
